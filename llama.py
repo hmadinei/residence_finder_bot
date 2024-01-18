@@ -3,7 +3,7 @@ import replicate
 import re
 import math
 
-os.environ['REPLICATE_API_TOKEN'] = 'r8_9jmK7GPClb3ZBThvUdXQryL2xrgMK6U2FF06z'
+os.environ['REPLICATE_API_TOKEN'] = ''
 token = os.environ.get('REPLICATE_API_TOKEN')
 
 
