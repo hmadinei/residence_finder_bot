@@ -92,7 +92,7 @@ async def last_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
         Score: {context.user_data['score']}, 
         Size Range: {context.user_data['area_size']}""")
     
-        db_handler = DatabaseHandler('Mori', 'postgres', 'hana2641378', 'localhost')
+        db_handler = DatabaseHandler('Mori', 'postgres', '', 'localhost')
         db_handler.connect()
         values = [context.user_data['capacity'], context.user_data['score'], context.user_data['area_size']]
         results = db_handler.query(tabel='tehran_data_jabama', values=values)
