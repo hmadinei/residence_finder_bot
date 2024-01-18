@@ -16,7 +16,7 @@ from unidecode import unidecode
 from llama import request_llama, parse_request
 
 
-TOKEN = "6758123131:AAGPusAawRJSotYTxqzNchtco7F8cPlq4-s"
+TOKEN = ""
 CHOOSING, FIRST, SECOND, LAST = range(4)
 
 # If the user response could be conerted to the float...
